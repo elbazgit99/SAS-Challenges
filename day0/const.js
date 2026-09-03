@@ -1,5 +1,5 @@
 /* 
-const :
+CONST :
 IDENTIFICATION :
 -const is a keyword in js introduced in ES6
 -const  is a block scope

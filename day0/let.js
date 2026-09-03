@@ -1,5 +1,6 @@
 /* 
 let :
+
 IDENTIFICATION :
 -let is a keyword in js introduced in ES6
 -let is a block scope

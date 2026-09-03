@@ -1,5 +1,5 @@
 /* 
-conditions
+CONDITIONS
 IDENTIFICATION :
 - conditions in general is an expression, simply accepts two value either true or false.
 - it commenlly refered to "decision making" in aspect of programming languages.
