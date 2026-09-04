@@ -14,7 +14,7 @@ if(temperature > 30){
 }else{
     console.log(`The weather is nice`)
 }
-
+temperature(10)
 //Even or Odd
 const number = 20;
 if (number % 2 === 0){
@@ -22,6 +22,7 @@ if (number % 2 === 0){
 }else{
     console.log(`number ${number}is odd`)
 }
+
 
 //Level 2
 // Grading System:

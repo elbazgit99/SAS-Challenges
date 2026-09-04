@@ -6,7 +6,7 @@ Level 1
 */
 let count = 1;
 while(count <= 20){
-    console.log("-".repeat(5))
+    console.log("-".repeat(5)) // ignore this
     console.log(count)
     count++
 }
