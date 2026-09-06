@@ -3,25 +3,29 @@
 
 
 //1.Age Logger:
-const age = 27
-console.log(`you are ${age} years old`) // executing the output using template leterals `${}`
+let age = (age) => {
+  return age
+}
+console.log(`you are ${25} years old`); // executing the output using template leterals `${}`
 
 //Temperature Check
-const temperature = 30
-if(temperature > 30){
-    console.log(`it's hot outside`)
+let temperature = (degree,temp) =>{
+  let check = degree < temp 
+  
+  ? "It's hot outside!" 
+  :"The weather is nice."
+  return check
+}
+console.log(temperature(30,29));
 
-}else{
-    console.log(`The weather is nice`)
-}
-temperature(10)
 //Even or Odd
-const number = 20;
-if (number % 2 === 0){
-    console.log(`number ${number} is even`)
-}else{
-    console.log(`number ${number}is odd`)
+let evenOrOdd = (number) => {
+  let is = number % 2 === 0
+  ? "number is even"
+  : "number is odd"
+  return is
 }
+console.log(evenOrOdd(20));
 
 
 //Level 2

@@ -96,7 +96,7 @@ console.log(`-`.repeat(70)) // NOTE : ignore this line
 
 /*
 Level 3
-Math Callback*/
+1.Math Callback*/
 
 const calculate = (a ,b ,operation) =>{
     return  operation(a, b)
@@ -113,25 +113,61 @@ let multiple = (a, b) => {
 let subtraction = (a, b) =>{
     return a - b
 }
+let divition = (a, b) => {
+    return a / b
+}
+
 console.log( calculate(500,500,addition))
                                                         console.log(`-`.repeat(70)) // NOTE : ignore this line
 console.log(calculate(10,5,multiple))
                                                         console.log(`-`.repeat(70)) // NOTE : ignore this line
 console.log(calculate(50,20,subtraction))
                                                         console.log(`-`.repeat(70)) // NOTE : ignore this line
-// console.log(calculate(10,2,divition))
-                                                        console.log(`-`.repeat(70)) // NOTE : ignore this line
+console.log(calculate(10,2,divition))
 
 
-console.log(`-`.repeat(70)) // NOTE : ignore this line
+console.log(`Closure Intro`+`-`.repeat(70)) // NOTE : ignore this line
+//2. Closure Intro
+
+let  createMultiplier = (multiplier) => {
+  return Holder = (number) => number * multiplier;
+
+}
+
+console.log(createMultiplier(2)(5)); 
 
 
+console.log(`Custom Filter Outline` +`-`.repeat(70)) // NOTE : ignore this line
+//3. Custom Filter Outline
+let filterOddNumbers = (arr, callback) => {
+    let isOdd = []
+    let j = 0
+    callback = (num) => num % 2 !== 0
+    for(let i = 0; i < arr.length; i++){
+        if(callback(arr[i])) {
+            isOdd[j] = arr[i]
+            j++
+        }
+    }
+    return isOdd
+}
+console.log(filterOddNumbers([2,4,5,7,9]));
 
-
-
-
+console.log(`Custom Filter Outline for even` +`-`.repeat(70)) // NOTE : ignore this line
+//// Custom Filter Outline for Even
+function filterEvenNumbers(arr, callback) {
+    let isEven = []
+    let j = 0
+    callback = (num) => num % 2 === 0
+    for(let i = 0; i < arr.length; i++) {
+        if(callback(arr[i])){
+            isEven[j] = arr[i]
+            j++
+        }
+    }
+    return isEven
+}
+console.log(filterEvenNumbers([6,2,4,5,1,13]));
 
 
 //compound assignment operators +=, -=, *=
-
-
