@@ -22,3 +22,13 @@ console.log(Summation(5));
 
 
 // Fabonacci Sequence 0,1 by default then 0,1,1,2,3,5,8,13,21
+
+// let palindromeCheck = (str) => {
+//   for(let i = 0; i < str.length / 2;i++){
+//     if(str[i] !== str[str.length - 1 - i]){
+//       return ` ${str} is not palindrome`
+//     }
+//   }
+//   return ` ${str} is a palindrome `
+// }
+// console.log(palindromeCheck(`youluoy`));
