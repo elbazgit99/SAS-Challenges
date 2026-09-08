@@ -134,6 +134,7 @@ let  createMultiplier = (multiplier) => {
 
 }
 
+
 console.log(createMultiplier(2)(5)); 
 
 
