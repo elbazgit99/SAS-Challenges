@@ -147,7 +147,7 @@ function GrouByDepartment(){
     {name : "ali"  , salary : 25000, department : "Dev"},
     {name : "saad" , salary : 20000, department : "Dev"},
   ]
-  // let group = employee
+
   let inDepartment = {}
   for( let value of employee){
     if(value.department === "Dev" ){
