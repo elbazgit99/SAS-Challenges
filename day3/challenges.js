@@ -112,6 +112,7 @@ let StringCompressor = (str) => {
 console.log(StringCompressor("aaaabbbcc"));
 
 
+
 console.log(` String Compressor:`+`-`.repeat(80)); //NOTE : ignore this line
 // 3.Anagram Checker:
 
