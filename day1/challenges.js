@@ -11,13 +11,14 @@ while(count <= 20){
     count++
 }
 
+
 // 2.Sum of First 100 Numbers:
 
 let Sum = 0 //as a starting 
 for(let i = 1; i <=100; i++) {
     //before additioning sum with i here sum just holds the numbers from 1 to 100
     Sum += i; //add each number to sum
-    //after this line sum is adding each number to each iteration : like 0 are the default  | 0 + 1 = 1 | 1 + 2 = 3 |  3 + 3 + 6 | 6 + 4 = 10 ... 
+    //after this line sum is adding each number to each iteration :like 0 are the default  | 0 + 1 = 1 | 1 + 2 = 3 |  3 + 3 + 6 | 6 + 4 = 10 ... 
     
 }
 console.log(` Sum of first 100 numbers is ${Sum}`)
@@ -59,12 +60,7 @@ console.log(Count)
 
 
 // 3.Square of Stars
-//using repeat method
-let n = 5;
-for (let i = 0; i <= n; i++) {
-    console.log("* ".repeat(n)) /*previosly whe were using repeat method to execute a string character a 
-*/
-}
+
 //using nested loop
 
 for (let i = 0; i < 5; i++) {
