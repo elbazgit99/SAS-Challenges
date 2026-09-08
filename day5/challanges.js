@@ -2,7 +2,6 @@
 Day 5: Objects & Arrays of Objects
 Level 1
 
-
 Car Object:*/
 console.log(`Car Object`+`-`.repeat(80)); //NOTE : ignore this line
 
