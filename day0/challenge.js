@@ -1,7 +1,6 @@
 //Day 0: Variables & Conditions
 //Level 1.
 
-
 //1.Age Logger:
 let age = (age) => {
   return age
