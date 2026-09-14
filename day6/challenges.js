@@ -35,3 +35,29 @@ function findMin(array) {
 console.log(findMin([5, 2, 3,1,7]))
 
  
+console.log(`3. Count Occurrences Search: `+`-`.repeat(30)) //NOTE : ignore this line
+
+function countAppears() {
+
+}
+
+// level 2
+
+
+console.log(`1. Bubble Sort  `+`-`.repeat(30)) //NOTE : ignore this line
+
+function BubbleSort(arr) {
+    let swap
+    for( let i = 0; i < arr.length; i++){
+        for(let j = 0; j < arr.length -1; j++){
+            if( arr[j] > arr[j + 1]){
+                swap = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j+1] = swap
+            }
+        }
+    }
+    console.log(arr);
+    
+}
+BubbleSort([5,7,6,9,8])
