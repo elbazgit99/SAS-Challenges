@@ -76,3 +76,78 @@ function removeDuplicates(array) {
   console.log(newArr)
 }
 removeDuplicates([20,20,20,50,50,30,30])
+
+
+console.log(`3. Custom Reverse:      `+`.`.repeat(30)) //NOTE : ignore this line
+
+
+function ReversArr(array) {
+  let newArr = []
+  for(let i = array.length  -1;i >= 0; i--){
+      newArr.push(array[i])
+    
+  }
+  console.log(newArr);
+  
+}
+ReversArr([1,2,3,4,5])
+
+
+// Level 3
+
+console.log(`1. Flatten 2D Array      `+`.`.repeat(30)) //NOTE : ignore this line
+
+function flatten2DArray(array){
+  newArr = []
+  for( let i = 0; i < array.length; i++ ){
+    for( let j = 0; j < array[i].length; j++){
+          newArr.push(array[i][j])
+    }
+  }
+  console.log(newArr)
+  
+}
+flatten2DArray([
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+])
+
+
+console.log(`2. Diagonal Sum:     `+`.`.repeat(30)) //NOTE : ignore this line
+
+function diagonalSum(arr) {
+  let sum = 0
+
+    sum = arr[0][0] + arr[1][1] + arr[2][2]
+    
+
+  console.log(sum);
+  
+}
+
+diagonalSum([
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+])
+
+console.log(`3. Matrix Transposition:     `+`.`.repeat(30)) //NOTE : ignore this line
+
+function transpose(arr) {
+    let swaps = []
+    for (let i = 0; i < arr[0].length; i++) {
+        swaps[i] = []
+
+        for (let j = 0; j < arr.length; j++) {
+            swaps[i][j] = arr[j][i];
+        }
+    }
+    return swaps
+}
+
+
+console.log(transpose([
+    [1, 2, 3],
+    [4, 5, 6]
+]));
