@@ -4,30 +4,34 @@ Level 1
 Linear Search Implementation:
 */
 
-console.log(`1.Linear Search Implementation: `+`-`.repeat(80)) //NOTE : ignore this line
+console.log(`1.Linear Search Implementation: `+`-`.repeat(30)) //NOTE : ignore this line
 
-const arr = 
+
 function LinearSearch(array, target) {
     for(let i = 0; i < array.length; i++){
         if(array[i] === target){
-            return console.log(i);
+         console.log(i);
             
-        }
+        }else{ -1  }
+
     }    
-    return console.log(-1);
 }
-LinearSearch(arr,34)
+LinearSearch([1,70,34,20],34)
+
+
+console.log(`2. Find Minimum Index: `+`-`.repeat(30)) //NOTE : ignore this line
 
 
 
-// const arr = [1,2,3,4,5]
-// function LinearSearch(array, target) {
-//     for(let i = 0; i < array.length; i++){
-//         if(array[i] === target[i]){
-//             return console.log(i);
-//                    }
-//     }
-//     return console.log(-1);
-    
-// }
-// LinearSearch(arr,2)
+function findMin(array) {
+
+    for (let arr in array) {
+        if (array[arr] === Math.min(...array)) {
+            return arr
+        }
+    }
+}
+
+console.log(findMin([5, 2, 3,1,7]))
+
+ 
