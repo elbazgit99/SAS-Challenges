@@ -142,9 +142,9 @@ console.log(`1.Group by Department:`+`-`.repeat(80)); //NOTE : ignore this line
 function GrouByDepartment(){
    const employee = [
     {name : "hamza", salary : 10000, department : "Data"},
-    {name : "adam" , salary : 30000, department : "Ai"},
-    {name : "ali"  , salary : 25000, department : "Dev"},
-    {name : "saad" , salary : 20000, department : "Dev"},
+    {name : "adam" , salary : 30000, department : "Ai"  },
+    {name : "ali"  , salary : 25000, department : "Dev" },
+    {name : "saad" , salary : 20000, department : "Dev" },
   ]
 
   let inDepartment = {}
